@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 107.0, 88.0, 2196.0, 1282.0 ],
+		"rect" : [ 34.0, 100.0, 2196.0, 1282.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -237,13 +237,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-48",
-					"linecount" : 16,
+					"linecount" : 47,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2686.0, 378.0, 50.0, 223.0 ],
-					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 2686.0, 378.0, 50.0, 639.0 ],
+					"text" : "1. 0. 0. 0. 0.590667 0. 0.590667 0.590667 0. 0. 0. 0.677084 1. 0. 0.505539 0. 0.433539 0. 0.385539 0. 0.369539 0. 0. 0.982704 1. 0. 0.693334 0. 0.549334 0.277334 0.493334 0. 0.381334 0.405334 0. 0.589552 0.693334 0. 0.437334 0. 0.461334 0. 0. 0.573334 0. 0. 0.706989 0.520834"
 				}
 
 			}
@@ -331,7 +331,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -384,52 +383,52 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-243",
-									"linecount" : 4,
+									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 229.66663932800293, 62.0, 62.0 ],
-									"text" : "1 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+									"text" : "1 1. 0. 0. 0. 0.590667 0. 0.590667 0.590667 0. 0. 0. 0.677084"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-242",
-									"linecount" : 5,
+									"linecount" : 11,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 89.499988794326782, 300.796320140361786, 50.0, 76.0 ],
-									"text" : "2 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+									"text" : "2 1. 0. 0.505539 0. 0.433539 0. 0.385539 0. 0.369539 0. 0. 0.982704"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-241",
-									"linecount" : 5,
+									"linecount" : 15,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 236.499988794326782, 300.796320140361786, 50.0, 76.0 ],
-									"text" : "3 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+									"text" : "3 1. 0. 0.693334 0. 0.549334 0.277334 0.493334 0. 0.381334 0.405334 0. 0.589552"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-223",
-									"linecount" : 5,
+									"linecount" : 13,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 362.499988794326782, 305.0, 52.0, 76.0 ],
-									"text" : "4 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+									"text" : "4 0.693334 0. 0.437334 0. 0.461334 0. 0. 0.573334 0. 0. 0.706989 0.520834"
 								}
 
 							}
@@ -2457,7 +2456,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1844.0, 329.0, 1468.0, 1041.0 ],
+						"rect" : [ 34.0, 329.0, 1468.0, 1041.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2488,30 +2487,6 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-37",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1113.0, 900.0, 162.0, 22.0 ],
-									"text" : "combine point- s @triggers 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-33",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1005.0, 877.0, 50.0, 22.0 ],
-									"text" : "0"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-29",
 									"linecount" : 5,
 									"maxclass" : "message",
@@ -2525,35 +2500,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 946.0, 645.0, 111.0, 22.0 ],
-									"text" : "r writeOnlyOutData"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1376.0, 557.0, 58.0, 22.0 ],
 									"text" : "s intoBuff"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-38",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 825.5, 880.000026226043701, 103.0, 22.0 ],
-									"text" : "s _finishedWriting"
 								}
 
 							}
@@ -3566,15 +3518,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 1 ],
-									"order" : 1,
-									"source" : [ "obj-10", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-38", 0 ],
-									"order" : 0,
 									"source" : [ "obj-10", 1 ]
 								}
 
@@ -3590,22 +3533,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-12", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-33", 1 ],
-									"order" : 1,
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 1 ],
-									"order" : 0,
-									"source" : [ "obj-13", 0 ]
 								}
 
 							}
@@ -4095,13 +4022,6 @@
 									"destination" : [ "obj-276", 0 ],
 									"order" : 1,
 									"source" : [ "obj-354", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-329", 0 ],
-									"source" : [ "obj-37", 0 ]
 								}
 
 							}
@@ -5501,13 +5421,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-98",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1903.231722235679626, 173.0, 123.576917588710785, 62.0 ],
-					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0.000244 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0"
+					"patching_rect" : [ 1903.231722235679626, 173.0, 123.576917588710785, 49.0 ],
+					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0"
 				}
 
 			}
@@ -8281,7 +8201,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 1360.208454052607294, 601.66663932800293, 163.0, 22.0 ],
-					"text" : "mc.poly~ pitchedAudioPoly 5"
+					"text" : "mc.poly~ pitchedAudioPoly 4"
 				}
 
 			}
@@ -8486,7 +8406,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-908",
-					"items" : [ "Gnet Adapter", ",", "USB Receiver", ",", "USB Receiver 2", ",", "USB Receiver 3", ",", "USB DEVICE", ",", "USB DEVICE 2", ",", "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
+					"items" : [ "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -8640,7 +8560,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-839",
-					"items" : [ "Gnet Adapter", ",", "USB Receiver", ",", "USB Receiver 2", ",", "USB Receiver 3", ",", "USB DEVICE", ",", "USB DEVICE 2", ",", "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
+					"items" : [ "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -8806,7 +8726,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-814",
-					"items" : [ "Gnet Adapter", ",", "USB Receiver", ",", "USB Receiver 2", ",", "USB Receiver 3", ",", "USB DEVICE", ",", "USB DEVICE 2", ",", "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
+					"items" : [ "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -8960,7 +8880,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-801",
-					"items" : [ "Gnet Adapter", ",", "USB Receiver", ",", "USB Receiver 2", ",", "USB Receiver 3", ",", "USB DEVICE", ",", "USB DEVICE 2", ",", "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
+					"items" : [ "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -9114,7 +9034,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-159",
-					"items" : [ "Gnet Adapter", ",", "USB Receiver", ",", "USB Receiver 2", ",", "USB Receiver 3", ",", "USB DEVICE", ",", "USB DEVICE 2", ",", "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
+					"items" : [ "Magic Trackpad", ",", "Magic Trackpad 2", ",", "Magic Trackpad 3", ",", "Magic Trackpad 4", ",", "Magic Mouse", ",", "Magic Mouse 2", ",", "Magic Mouse 3", ",", "Magic Trackpad 5", ",", "Magic Mouse 4", ",", "Keyboard Backlight", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0x20, Usage: 0x8a", ",", "Page: 0xff00, Usage: 0x9", ",", "Vendor Defined Usage 0x5", ",", "Page: 0xff00, Usage: 0x5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x3", ",", "Vendor Defined Usage 0x1", ",", "Page: 0xff00, Usage: 0x4" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -9726,6 +9646,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-224", 0 ],
 					"source" : [ "obj-142", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 1 ],
+					"order" : 0,
+					"source" : [ "obj-143", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+					"source" : [ "obj-143", 1 ]
 				}
 
 			}
@@ -11740,6 +11676,20 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "alto_pitches.txt",
+				"bootpath" : "~/Desktop/Cat's Cradle/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bass_pitches.txt",
+				"bootpath" : "~/Desktop/Cat's Cradle/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "flucomaRouter.maxpat",
 				"bootpath" : "~/Desktop/Cat's Cradle/patchers",
 				"patcherrelativepath" : ".",
@@ -11777,10 +11727,24 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "soprano_pitches.txt",
+				"bootpath" : "~/Desktop/Cat's Cradle/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "staticRhythmCtlPoly.maxpat",
 				"bootpath" : "~/Desktop/Cat's Cradle/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tenor_pitches.txt",
+				"bootpath" : "~/Desktop/Cat's Cradle/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
